@@ -40,8 +40,8 @@
             <img src="/hero.svg" width="500" alt="">
         </div>
     </div>
-    <div class="slide-container  bg-[#7F35FF] text-white text-center">
-        <div class="slide-text py-4">
+    <div class="slide-container relative top-[63px] -rotate-3 bg-[#7F35FF] text-white text-center">
+        <div class="slide-text-right py-4">
             <img src="/20crypto.png" width="350" alt="">
             <img src="/20crypto.png" width="350" alt="">
             <img src="/20crypto.png" width="350" alt="">
@@ -49,8 +49,8 @@
             <img src="/20crypto.png" width="350" alt="">
         </div>
     </div>
-    <div class="slide-container  bg-[#388BFF] text-white text-center">
-        <div class="slide-text py-4">
+    <div class="slide-container bg-[#388BFF] rotate-3 text-white text-center">
+        <div class="slide-text-left py-4">
             <img src="/30crypto.png" width="350" alt="">
             <img src="/30crypto.png" width="350" alt="">
             <img src="/30crypto.png" width="350" alt="">
@@ -65,22 +65,35 @@
     overflow: hidden;
 }
 
-.slide-text {
+.slide-text-right {
     display: flex; 
     white-space: nowrap;
-    animation: slide 40s linear infinite; /* Ajusta la duración de la animación */
+    animation: slideRight 40s linear infinite; /* Ajusta la duración de la animación */
+}
+.slide-text-left {
+    display: flex; 
+    white-space: nowrap;
+    animation: slideLeft 40s linear infinite; /* Ajusta la duración de la animación */
 }
 
 .slide-text img {
     margin-right: 20px; /* Espacio entre las imágenes */
 }
 
-@keyframes slide {
+@keyframes slideLeft {
     0% {
         transform: translateX(0%);
     }
     100% {
         transform: translateX(-100%); /* Desplaza la imagen completamente fuera de la vista */
+    }
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%); /* Desplaza la imagen completamente fuera de la vista */
     }
 }
 
