@@ -1,4 +1,6 @@
 ---
+import Card from "./Card.astro"
+import { CardsData } from "../data"
 ---
 <section class="pt-10">
     <p class="text-[#7F35FF] text-lg">Trending</p>
@@ -17,4 +19,9 @@
         </div>
     </div>
 </div>
+<div class="flex flex-row pt-5 gap-x-5 overflow-x-auto">
+    {CardsData.map(({ image, name, value, eth }) => (
+      <Card key={name} image={image} name={name} value={value} eth={eth} />
+    ))}
+  </div>
 </section>

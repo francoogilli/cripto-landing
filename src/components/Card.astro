@@ -1,0 +1,25 @@
+---
+const { image, name, value, eth } = Astro.props
+---
+
+
+<div class="w-[252px] hover:scale-105 duration-300 border-[#2A2533] border rounded-2xl">
+    <img src={image} draggable="false" class="rounded-t-2xl select-none" width="350" alt="">
+    <div class="bg-[#0B090D] rounded-b-2xl w-[250px] grid grid-cols-10 p-3">
+      <div class="col-span-2">
+        <div class="rounded-full w-10 h-10">
+          <img src="/Avatar.svg" class="size-10 border-2 border-[#2A2533] rounded-full select-none" draggable="false" alt="">
+        </div>
+      </div>
+      <div class="col-span-8 flex justify-between">
+        <div class="flex flex-col">
+          <span class="text-[11px] text-[#625873] italic">Owned by</span>
+          <span class="text-base text-white font-semibold">{name}</span>
+        </div>
+        <div class="flex flex-col justify-end">
+          <span class="text-[11px] text-[#4BCE97] italic">{value}$</span>
+          <span class="text-base text-white font-semibold">{eth} ETH</span>
+        </div>
+      </div>
+    </div>
+  </div>
