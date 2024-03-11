@@ -1,6 +1,7 @@
 ---
 import {CollectorsData} from "../data"
 import Chevron from "../icons/Chevron.astro"
+import Verified from "../icons/Verfied.astro"
 ---
 
 <section class="pt-14 md:pt-32">
@@ -17,7 +18,12 @@ import Chevron from "../icons/Chevron.astro"
     CollectorsData.map(({ username, name, percentage, eth,avatar,color }) => (
     <div class="pt-10 flex justify-between">
     <div class="flex justify-center gap-x-4">
-        <img src={avatar} class="size-11 border-2 border-[#2A2533] rounded-full" alt="">
+        <div class="relative inline-block">
+            <img src={avatar} class="size-11 border-2 border-[#2A2533] rounded-full" alt="">
+            <div class="absolute top-[1.6rem] left-6">
+                <Verified />
+            </div>
+        </div>
         <div class="flex flex-col">
             <p class="text-white font-semibold">{name}</p>
             <p class="text-[#7F35FF] font-medium">{username}</p>
