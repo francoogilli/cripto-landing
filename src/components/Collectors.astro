@@ -14,10 +14,10 @@ import Chevron from "../icons/Chevron.astro"
     </div>
 </div>
 {
-    CollectorsData.map(({ username, name, percentage, eth }) => (
+    CollectorsData.map(({ username, name, percentage, eth,avatar }) => (
     <div class="pt-10 flex justify-between">
     <div class="flex justify-center gap-x-4">
-        <img src="/Avatar.svg" alt="">
+        <img src={avatar} class="size-11 border-2 border-[#2A2533] rounded-full" alt="">
         <div class="flex flex-col">
             <p class="text-white font-semibold">{name}</p>
             <p class="text-[#7F35FF] font-medium">{username}</p>

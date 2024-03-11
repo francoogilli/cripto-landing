@@ -20,8 +20,8 @@ import { CardsData } from "../data"
     </div>
 </div>
 <div class="flex flex-row pt-5 gap-x-5 overflow-x-auto">
-    {CardsData.map(({ image, name, value, eth }) => (
-      <Card key={name} image={image} name={name} value={value} eth={eth} />
+    {CardsData.map(({ image, name, value, eth, avatar }) => (
+      <Card key={name} image={image} name={name} value={value} eth={eth} avatar={avatar} />
     ))}
   </div>
 </section>
