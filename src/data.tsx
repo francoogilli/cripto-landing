@@ -2,25 +2,25 @@
 
 export const CardsData = [
     {
-        image: 'image.png',
+        image: '/images/image.png',
         name: 'Hacker',
         value:'2.432,21$',
         eth: '1.2'
     },
     {
-        image: 'corgi.png',
+        image: '/images/corgi.png',
         name: 'Rober',
         value:'1.432,21$',
         eth: '0.7'
     },
     {
-        image: 'perro.jpg',
+        image: '/images/perro.jpg',
         name: 'Hacker',
         value:'2.432,21$',
         eth: '1.2'
     },
     {
-        image: 'tiger.jpeg',
+        image: '/images/tiger.jpeg',
         name: 'Hacker',
         value:'2.432,21$',
         eth: '1.2'
