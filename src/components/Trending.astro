@@ -19,7 +19,7 @@ import { CardsData } from "../data"
         </div>
     </div>
 </div>
-<div class="flex flex-row pt-5 gap-x-5 overflow-x-auto">
+<div class="flex flex-row pt-5 gap-x-5 overflow-x-auto overflow-y-hidden">
     {CardsData.map(({ image, name, value, eth, avatar }) => (
       <Card key={name} image={image} name={name} value={value} eth={eth} avatar={avatar} />
     ))}
