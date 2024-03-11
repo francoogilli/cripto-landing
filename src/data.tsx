@@ -39,7 +39,7 @@ export const CardsData = [
         name: 'Hacker',
         percentage:'2.432,21',
         eth: '20',
-        color:'#EF4870'
+        color:'text-[#EF4870]'
     },
     {
         username: '@robert',
@@ -47,7 +47,7 @@ export const CardsData = [
         name: 'Rober',
         percentage:'1.432,21',
         eth: '20',
-        color:'#4BCE97'
+        color:'text-[#4BCE97]'
     },
     {
         username: '@franco',
@@ -55,7 +55,7 @@ export const CardsData = [
         name: 'Franco',
         percentage:'5.567,12',
         eth: '20',
-        color:'#EF4870'
+        color:'text-[#EF4870]'
     },
     {
         username: '@elisaNFT',
@@ -63,7 +63,7 @@ export const CardsData = [
         name: 'Elisa',
         percentage:'2.432,21',
         eth: '20',
-        color:'#4BCE97'
+        color:'text-[#4BCE97]'
     },
     {
         username: '@david',
@@ -71,7 +71,7 @@ export const CardsData = [
         name: 'David',
         percentage:'1.431,21',
         eth: '19',
-        color:'#4BCE97'
+        color:'text-[#4BCE97]'
     },
     {
         username: '@melissa',
@@ -79,7 +79,7 @@ export const CardsData = [
         name: 'Melissa',
         percentage:'1.332,25',
         eth: '31',
-        color:'#EF4870'
+        color:'text-[#EF4870]'
     },
     {
         username: '@marilyn',
@@ -87,6 +87,6 @@ export const CardsData = [
         name: 'Marilyn',
         percentage:'4.120,98',
         eth: '52',
-        color:'#EF4870'
+        color:'text-[#EF4870]'
     }
   ]
