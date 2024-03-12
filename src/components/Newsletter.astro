@@ -16,40 +16,40 @@
     </div>
 
     <div class="absolute hidden md:flex top-0 left-0 w-full h-full justify-center items-center pointer-events-none -z-10">
-        <div class="absolute top-72 left-20 size-20 flex justify-center items-center rounded-full border-[3px] border-[#DD00C6]">
+        <div class="absolute top-52 left-20 size-20 flex justify-center items-center rounded-full border-[3px] border-[#DD00C6]" style={{ animation: "levitate 17s ease 1s infinite" }}>
             <img src="/avatars/Avatar2.svg" class="size-20" alt="">
         </div>
-        <div class="absolute top-2/3 right-52 size-24 flex justify-center items-center rounded-full border-[3px] border-[#FF6CFF]">
+        <div class="absolute top-2/3 right-52 size-24 flex justify-center items-center rounded-full border-[3px] border-[#FF6CFF]" style={{ animation: "levitate 13s ease 1s infinite" }}>
             <img src="/avatars/Avatar5.svg" class="size-24 rotate-[20deg]" alt="">
         </div>
-        <div class="absolute top-3/4 left-80 size-10 flex justify-center items-center rounded-full border-[3px] border-[#1F1B26]">
+        <div class="absolute top-3/4 left-80 size-10 flex justify-center items-center rounded-full border-[3px] border-[#1F1B26]" style={{ animation: "levitate 15s ease 1s infinite" }}>
             <img src="/avatars/Avatar6.svg" class="size-10 rotate-6" alt="">
         </div>
-        <div class="absolute top-[5rem] left-5/12 size-24 flex justify-center items-center rounded-full border-[3px] border-white/30">
+        <div class="absolute top-[5rem] left-5/12 size-24 flex justify-center items-center rounded-full border-[3px] border-white/30" style={{ animation: "levitate 12s ease 1s infinite" }}>
             <img src="/avatars/Avatar.svg" class="size-24 rotate-[20deg]" alt="">
         </div>
-        <div class="absolute top-52 right-32 size-20 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
+        <div class="absolute top-52 right-32 size-20 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]" style={{ animation: "levitate 17s ease 1s infinite" }}>
             <img src="/avatars/Avatar3.svg" class="size-20 rotate-[25deg]" alt="">
         </div>
-        <div class="absolute top-2/3 left-0 size-24 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
+        <div class="absolute top-2/3 left-0 size-24 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]" style={{ animation: "levitate 16s ease 1s infinite" }}>
             <img src="/avatars/Avatar4.svg" class="size-24 " alt="">
         </div>
     </div>
 
     <div class="absolute flex md:hidden top-0 left-0 w-full h-full justify-center items-center pointer-events-none -z-10">
-        <div class="absolute top-48 left-4 size-16 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]">
+        <div class="absolute top-48 left-4 size-16 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]" style={{ animation: "levitate 17s ease 1s infinite" }}>
             <img src="/avatars/Avatar2.svg" class="size-16 rotate-[-7deg]" alt="">
         </div>
-        <div class="absolute top-[5rem] left-5/12 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]">
+        <div class="absolute top-[5rem] left-5/12 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]" style={{ animation: "levitate 18s ease 1s infinite" }}>
             <img src="/avatars/Avatar1.svg" class="size-24 rotate-[20deg]" alt="">
         </div>
-        <div class="absolute top-52 right-10 size-14 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]">
+        <div class="absolute top-52 right-10 size-14 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]" style={{ animation: "levitate 15s ease 1s infinite" }}>
             <img src="/avatars/Avatar.svg" class="size-14 rotate-[-14deg]" alt="">
         </div>
-        <div class="absolute top-3/4 left-8 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]">
+        <div class="absolute top-3/4 left-8 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]" style={{ animation: "levitate 16s ease 1s infinite" }}>
             <img src="/avatars/Avatar4.svg" class="size-24 rotate-[15deg]" alt="">
         </div>
-        <div class="absolute top-[77%] right-6 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]">
+        <div class="absolute top-[77%] right-6 size-24 flex justify-center items-center rounded-full border-[3px] border-[#2A2533]" style={{ animation: "levitate 17s ease 1s infinite" }}>
             <img src="/avatars/Avatar3.svg" class="size-24 " alt="">
         </div>
     </div>
@@ -68,5 +68,21 @@
 
 
 <style>
-    
+    @keyframes levitate {
+    0% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(4px);
+    }
+    70% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 </style>
