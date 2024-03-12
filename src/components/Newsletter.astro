@@ -2,11 +2,11 @@
 
 ---
 
-<div class="relative flex flex-col  h-[700px] justify-center items-center pt-20 mb-20 px-1" style="background-image: url('/ondas.svg');background-position: center;">
+<div class="relative flex flex-col  h-[700px] justify-center items-center pt-20 mb-20 px-1 z-0" style="background-image: url('/ondas.svg');background-position: center;">
     <h1 class="text-white text-center font-bold text-3xl md:text-5xl">Subscribe to Our Newsletter</h1>
     <p class="text-white text-center text-[15px] font-thin pb-20">You can subscribe to stay up to date with all the news.</p>
     
-    <div class="grid grid-cols-10 items-center border-2 border-[#18151D] bg-[#0A0A0A] rounded-full p-2">
+    <div class="grid grid-cols-10 items-center border-2 border-[#18151D] bg-[#0A0A0A] rounded-full p-2 z-20">
         <div class="col-span-7">
             <input type="text" placeholder="Type your email" class="rounded-full px-4 border-none focus:outline-none bg-[#0A0A0A] placeholder:text-[#858486] text-[#858486] placeholder:md:text-base placeholder:text-sm placeholder:bg-[#0A0A0A]">
         </div>
@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <div class="absolute hidden md:flex top-0 left-0 w-full h-full justify-center items-center pointer-events-none z-0">
+    <div class="absolute hidden md:flex top-0 left-0 w-full h-full justify-center items-center pointer-events-none -z-10">
         <div class="absolute top-72 left-20 size-20 flex justify-center items-center rounded-full border-[3px] border-[#DD00C6]">
             <img src="/avatars/Avatar2.svg" class="size-20" alt="">
         </div>
@@ -31,8 +31,27 @@
         <div class="absolute top-52 right-32 size-20 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
             <img src="/avatars/Avatar3.svg" class="size-20 rotate-[25deg]" alt="">
         </div>
-        <div class="absolute top-2/3 left-2 size-24 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
+        <div class="absolute top-2/3 left-0 size-24 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
             <img src="/avatars/Avatar4.svg" class="size-24 " alt="">
+        </div>
+    </div>
+
+    <div class="absolute flex md:hidden top-0 left-0 w-full h-full justify-center items-center pointer-events-none -z-10">
+        <div class="absolute top-48 left-4 size-16 flex justify-center items-center rounded-full border-[3px] border-[#DD00C6]">
+            <img src="/avatars/Avatar2.svg" class="size-16 rotate-[-7deg]" alt="">
+        </div>
+        
+        <div class="absolute top-[77%] right-16 size-24 flex justify-center items-center rounded-full border-[3px] border-[#1F1B26]">
+            <img src="/avatars/Avatar3.svg" class="size-24 " alt="">
+        </div>
+        <div class="absolute top-[5rem] left-5/12 size-24 flex justify-center items-center rounded-full border-[3px] border-white/30">
+            <img src="/avatars/Avatar1.svg" class="size-24 rotate-[20deg]" alt="">
+        </div>
+        <div class="absolute top-52 right-10 size-14 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
+            <img src="/avatars/Avatar.svg" class="size-14 rotate-[-14deg]" alt="">
+        </div>
+        <div class="absolute top-3/4 left-24 size-24 flex justify-center items-center rounded-full border-[3px] border-[#5EEBFF]">
+            <img src="/avatars/Avatar4.svg" class="size-24 rotate-[15deg]" alt="">
         </div>
     </div>
 
