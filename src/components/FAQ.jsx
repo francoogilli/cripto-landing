@@ -25,7 +25,7 @@ const FAQ = () => {
                                 {!openItems[index] ? <path className="plus" d="M12 5v14M5 12h14" /> : null}
                             </svg>
                         </div>
-                        <div className={openItems[index] ? "p-2 toggle" : "p-2 hidden toggle"}>
+                        <div className={openItems[index] ? "px-5 pb-3 text-sm md:text-base toggle" : "p-2 hidden toggle"}>
                             {answer}
                         </div>
                     </div>
