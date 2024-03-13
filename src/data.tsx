@@ -31,6 +31,25 @@ export const CardsData = [
     }
   ]
 
+  export const QuestionsData = [
+    {
+        question: 'What is a non-fungible token (NFT)?',
+        answer:'A non-fungible token (NFT) is a type of digital asset that represents ownership or proof of authenticity of a unique item or piece of content, such as artwork, music, videos, collectibles, or even virtual real estate, using blockchain technology. Unlike cryptocurrencies like Bitcoin or Ethereum, which are fungible and can be exchanged on a one-to-one basis, each NFT has unique properties that distinguish it from other tokens, making it indivisible and not interchangeable. '
+    },
+    {
+        question:'How do I buy an NFT?',
+        answer:'Select a marketplace or platform where NFTs are bought and sold. Some popular platforms include OpenSea, Rarible, Foundation, and NBA Top Shot.'
+    },
+    {
+        question:'What is Crypto® NFT Marketplace?',
+        answer:'Crypto® NFT Marketplace" is an emerging platform dedicated to buying and selling NFTs in the world of cryptocurrencies. As a specialized marketplace, it would probably stand out by offering an experience focused on security, ease of use, and a wide selection of High-quality NFTs in different categories, from digital art to collectibles and more.'
+    },
+    {
+        question:'How do I sell an NFT?',
+        answer:'Select a reputable NFT marketplace or platform where you can list your NFT for sale. Popular options include OpenSea, Rarible, Foundation, and NBA Top Shot.Upload the digital file of your NFT to the platform. This typically involves providing details such as a title, description, and any relevant metadata about the NFT.Determine the price at which you want to sell your NFT. You can choose to list it at a fixed price or set it up for auction.'
+    }
+  ]
+
 
   export const CollectorsData = [
     {

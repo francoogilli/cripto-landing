@@ -4,6 +4,7 @@ import Hero from '../components/Hero.astro';
 import Trending from '../components/Trending.astro';
 import Collectors from '../components/Collectors.astro';
 import Newsletter from '../components/Newsletter.astro';
+import FAQ from '../components/FAQ.jsx';
 ---
 
 <Layout title="Cripto Landing Page">
@@ -11,6 +12,7 @@ import Newsletter from '../components/Newsletter.astro';
     <Trending/>
     <Collectors/>
     <Newsletter/>
+    <FAQ client:only/>
 </Layout>
 
 <style>
