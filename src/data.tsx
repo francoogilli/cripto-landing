@@ -53,7 +53,7 @@ export const CardsData = [
 
   export const CollectorsData = [
     {
-        username: '@johnNFT',
+        username: '@hackerNFT',
         avatar: '/avatars/Avatar.svg',
         name: 'Hacker',
         percentage:'2.432,21',
@@ -61,7 +61,7 @@ export const CardsData = [
         color:'text-[#EF4870]'
     },
     {
-        username: '@robert',
+        username: '@rober',
         avatar: '/avatars/Avatar1.svg',
         name: 'Rober',
         percentage:'1.432,21',
@@ -77,9 +77,9 @@ export const CardsData = [
         color:'text-[#EF4870]'
     },
     {
-        username: '@elisaNFT',
+        username: '@steveNFT',
         avatar: '/avatars/Avatar2.svg',
-        name: 'Elisa',
+        name: 'Steve',
         percentage:'2.432,21',
         eth: '20',
         color:'text-[#4BCE97]'
@@ -93,17 +93,17 @@ export const CardsData = [
         color:'text-[#4BCE97]'
     },
     {
-        username: '@melissa',
+        username: '@eduard',
         avatar: '/avatars/Avatar5.svg',
-        name: 'Melissa',
+        name: 'Eduard',
         percentage:'1.332,25',
         eth: '31',
         color:'text-[#EF4870]'
     },
     {
-        username: '@marilyn',
+        username: '@melissa',
         avatar: '/avatars/Avatar6.svg',
-        name: 'Marilyn',
+        name: 'Melissa',
         percentage:'4.120,98',
         eth: '52',
         color:'text-[#EF4870]'
