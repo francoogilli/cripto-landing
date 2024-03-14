@@ -5,6 +5,7 @@ import Trending from '../components/Trending.astro';
 import Collectors from '../components/Collectors.astro';
 import Newsletter from '../components/Newsletter.astro';
 import FAQ from '../components/FAQ.jsx';
+import Footer from '../components/Footer.astro';
 ---
 
 <Layout title="Cripto Landing Page">
@@ -13,6 +14,7 @@ import FAQ from '../components/FAQ.jsx';
     <Collectors/>
     <Newsletter/>
     <FAQ client:only/>
+    <Footer/>
 </Layout>
 
 <style>
