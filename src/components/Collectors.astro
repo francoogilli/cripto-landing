@@ -4,7 +4,7 @@ import Chevron from "../icons/Chevron.astro"
 import Verified from "../icons/Verfied.astro"
 ---
 
-<section class="pt-14 md:pt-32">
+<section class=" relative pt-14 md:pt-32">
     <p class="text-[#7F35FF] text-lg">This week</p>
 <div class="flex sm:flex-row justify-between flex-col">
     <div class="flex flex-col">
@@ -12,6 +12,11 @@ import Verified from "../icons/Verfied.astro"
     </div>
     <div class="pt-5 md:pt-0">
         <button class="text-white flex justify-between items-center gap-x-2 font-bold w-full bg-[#0d0a09] rounded-full px-5 py-1.5 border border-[#1F1B26]">This week<Chevron/></button>
+    </div>
+</div>
+<div class="absolute flex md:hidden overflow-hidden top-0 right-0 w-full h-full justify-center items-center pointer-events-none -z-10">
+    <div class="absolute top-5 left-64 size-48 flex justify-center items-center">
+        <img src="/coin.png" class="size-48  select-none" alt="">
     </div>
 </div>
 <div class="divide-y divide-[#1F1B26] pt-10">
