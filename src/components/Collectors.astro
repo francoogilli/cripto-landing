@@ -21,9 +21,10 @@ import Verified from "../icons/Verfied.astro"
 </div>
 <div class="divide-y divide-[#1F1B26] pt-10">
 {
-    CollectorsData.map(({ username, name, percentage, eth,avatar,color }) => (
+    CollectorsData.map(({ username, name, percentage, eth,avatar,color },index) => (
     <div class="py-4 flex justify-between">
-    <div class="flex justify-center gap-x-4">
+    <div class="flex items-center justify-center gap-x-4">
+        <p class="text-white text-xl md:mr-2 font-bold">{index+1}</p>
         <div class="relative inline-block">
             <img src={avatar} class="size-11 border-2 border-[#2A2533] rounded-full" alt="">
             <div class="absolute top-[1.6rem] left-6">
