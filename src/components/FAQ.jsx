@@ -23,7 +23,7 @@ const FAQ = () => {
                                 <p className="bg-[#7F35FF] flex justify-center font-bold md:text-sm text-xs items-center text-white size-5 md:size-6 px-2 rounded-md">{index + 1}</p>
                                 <p className='text-sm md:text-lg'>{question}</p>
                             </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" className={`  rounded-full p-1 size-5 md:size-6 ${openItems[index] ? 'bg-zinc-700' : 'bg-[#7F35FF]'}`} width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" className={`  rounded-full p-1 size-5 md:size-6 ${openItems[index] ? 'bg-zinc-700' : 'bg-[#131313]'}`} width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 {!openItems[index] ? <path className="line" d="M12 5l0 14" /> : <path className="line" d="M5 12h14" />}
                                 {!openItems[index] ? <path className="plus" d="M12 5v14M5 12h14" /> : null}
                             </svg>
