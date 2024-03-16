@@ -15,9 +15,8 @@ const FAQ = () => {
     return (
         <section>
             <p className="text-white font-bold text-3xl pb-10">FAQ</p>
-            <div className="divide-y divide-[#1F1B26]">
                 {QuestionsData.map(({ question, answer }, index) => (
-                    <div className={`accordion-item text-white duration-300 rounded-lg ${openItems[index] ? 'bg-[#131313]' : 'hover:bg-[#131313]'}`} key={index}>
+                    <div className={`accordion-item text-white duration-300 rounded-2xl ${openItems[index] ? 'bg-white/5' : 'hover:bg-white/5'}`} key={index}>
                         <div className="flex justify-between items-center px-4 py-5 font-semibold cursor-pointer" onClick={() => toggleAccordion(index)}>
                             <div className='flex justify-center items-center gap-x-4'>
                                 <p className="bg-[#7F35FF] flex justify-center font-bold md:text-sm text-xs items-center text-white size-5 md:size-6 px-2 rounded-md">{index + 1}</p>
@@ -33,7 +32,6 @@ const FAQ = () => {
                         </div>
                     </div>
                 ))}
-            </div>
         </section>
     );
 };
