@@ -16,7 +16,7 @@ const FAQ = () => {
         <section>
             <p className="text-white font-bold text-3xl pb-10">FAQ</p>
                 {QuestionsData.map(({ question, answer }, index) => (
-                    <div className={`accordion-item text-white duration-300 rounded-2xl ${openItems[index] ? 'bg-white/5' : 'hover:bg-white/5'}`} key={index}>
+                    <div className={`accordion-item text-white duration-300 rounded-2xl mt-4 bg-[#ffffff09] ${openItems[index] ? 'bg-white/5' : 'hover:bg-[#ffffff09]'}`} key={index}>
                         <div className="flex justify-between items-center px-4 py-5 font-semibold cursor-pointer" onClick={() => toggleAccordion(index)}>
                             <div className='flex justify-center items-center gap-x-4'>
                                 <p className="bg-[#7F35FF] flex justify-center font-bold md:text-sm text-xs items-center text-white size-5 md:size-6 px-2 rounded-md">{index + 1}</p>
